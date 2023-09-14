@@ -1,0 +1,422 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+
+
+/* Style */
+
+.header_and_welcome {
+    position: relative;
+}
+
+.header_section {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 144px;
+}
+
+.logo_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 272px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.mid_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.your_scrapbook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.your_scrapbook_text_flex {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+}
+
+.your_scrapbook_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.your_scrapbook_progress_text {
+    color: #1C9DC9;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blue_sky_text {
+    color: #B7E9FA;
+}
+
+.sign_log_burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_btns {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header_btn_login_text {
+    color: #1C9DC9;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.signup_button {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: #1C9DC9;
+    box-shadow: 0px 3px 0px 0px #000;
+    display: flex;
+    width: 180px;
+    align-items: flex-start;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+}
+
+.router_text_mid {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: #1C9DC9;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.burger_div {
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Menu */
+
+.menu_article {
+    position: absolute;
+    max-width: 2400px;
+    min-width: 270px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 3;
+    margin-top: -144px;
+    /* display: flex; */
+    justify-content: flex-end;
+    display: none;
+
+}
+
+.menu_div {
+    border-radius: 24px 0px 0px 24px;
+    width: 30%;
+    height: 100%;
+    background-color: #B7E9FA;
+    /* display: flex; */
+    /* width: 393px; */
+    /* height: 1080px; */
+    padding: 24px;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.menu_div_gap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* align-items: flex-start; */
+    gap: 48px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 104px;
+    /* background: darkgreen; */
+}
+
+.menu_header_x_login_btn_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.menu_header_x_btn {
+    cursor: pointer;
+}
+
+.menu_header_login_btn {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #1C9DC9;
+    box-shadow: 0px 2px 0px 0px #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu_mid_divs_and_input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.menu_input_div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.menu_header_routes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.menu_header_route_topics_submit_dog_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 10px; */
+    align-self: stretch;
+}
+
+.menu_mid_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex: 1 0 0;
+    gap: 25px;
+    align-self: stretch;
+}
+
+.menu_header_route_scrapbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu_header_route_your_scrapbook {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.menu_header_your_scrapbook_progress_div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.menu_footer_routes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.menu_footer_route {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.menu_header_route_txt {
+    padding: 8px 0px;
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.menu_header_route_txt_span {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.menu_social_icons_and_txt_div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.menu_social_icons_follow_txt {
+    color: #02455C;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu_header_route_question_txt {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.menu_header_route_percent_txt {
+    color: #02455C;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.menu_header_login_to_view {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.search_icon {
+    cursor: pointer;
+    position: absolute;
+    padding-right: 10px;
+}
+
+.menu_input_div_flex{
+    width: 100%;
+}
+
+.menu_header_input {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 2px solid #1C9DC9;
+    background: #D0F3FF;
+    outline: none;
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.menu_input_div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}

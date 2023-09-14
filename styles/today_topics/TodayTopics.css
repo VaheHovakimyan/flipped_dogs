@@ -1,0 +1,334 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+
+/* Style */
+
+.today_topics_article {
+    display: none;
+    /************************************************************/
+    /* display: flex; */
+    /************************************************************/
+
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 60px;
+}
+
+.today_topics_and_see_all_topics_btn_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+
+/* Today topic title */
+
+.today_topics_title_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 60px;
+}
+
+.today_topics_title {
+    color: #08759A;
+    font-family: 'Montserrat';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+.today_topics {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    width: 100%;
+}
+
+/* Today topic news div */
+
+/* Today topics left part first div */
+
+.today_topics_left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    min-width: 450px;
+    max-width: 800px;
+}
+
+.today_topics_baby_dog_img {
+    width: 100%;
+}
+
+.today_topics_left_part_image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.today_topics_left_part_firts_text_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.today_topics_left_part_first_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.today_topics_left_part_first_div_title {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.today_topics_left_part_first_div_text {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.today_topics_left_part_first_div_subtext {
+    color: #323232;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Today topics left part second div */
+
+
+.today_topics_left_part_second_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Today topics right part */
+
+.today_topics_left_part_title {
+    color: #08759A;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.today_topics_left_part_section {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.today_topics_left_part_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    /* width: 500px; */
+    min-width: 250px;
+    max-width: 350px;
+    /* min-width: 400px;
+    max-width: 600px; */
+}
+
+.today_topics_left_part_item_img_div {
+    width: 100%;
+}
+
+.today_topics_left_part_item_img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.today_topics_left_part_item_text_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.today_topics_left_part_second_div_title {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.today_topics_left_part_second_div_text_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.today_topics_left_part_second_div_text {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.today_topics_left_part_second_div_subtext {
+    color: #323232;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Today topics right */
+
+.trending_items_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.trending_item_elements_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.today_topics_trending_title_tranding_items_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.today_topics_right_part_title_line_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.today_topics_right_part_title {
+    color: #08759A;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.trending_today_topics_name_date_div {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+
+.trending_item_text_div {
+    display: flex;
+    /* width: 480px; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.trending_today_topics_name {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.trending_today_topics_date {
+    color: #000;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.trending_item_text {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.trending_item_subtext {
+    color: #323232;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* See all topics div */
+
+.today_topics_see_all_topics_btn_div {
+    display: flex;
+    width: 240px;
+    height: 56px;
+    align-items: flex-start;
+}
+
+.today_topics_see_all_topics_btn {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: #1C9DC9;
+    box-shadow: 0px 3px 0px 0px #000;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}

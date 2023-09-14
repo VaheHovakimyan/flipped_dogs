@@ -1,0 +1,38 @@
+@media only screen and (max-width:1150px){
+    .header_section{
+        padding: 16px 24px 4px 24px;
+        gap: 8px;
+    }
+
+    .route{
+        display: none;
+    }
+
+    .login_button{
+        display: none;
+    }
+
+    .your_scrapbook{
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .your_scrapbook_text{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .logo_flex{
+        width: 130px;
+    }
+
+    #logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+}

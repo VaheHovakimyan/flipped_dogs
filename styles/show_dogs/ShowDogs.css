@@ -1,0 +1,157 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+
+/* Style */
+
+
+/* Show dog first section */
+
+.show_dogs_article {
+    display: none;
+    /************************************************************/
+    /* display: flex; */
+    /************************************************************/
+
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    /* padding: 60px 240px; */
+    /* min-width: 750px;
+    max-width: 1300px; */
+}
+
+.show_dogs_first_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+    padding: 0 60px;
+    gap: 8px;
+    /* width: 100%; */
+}
+
+.show_dogs_item {
+    display: flex;
+    /* width: 344px;
+    height: 310px; */
+    min-width: 200px;
+    max-width: 400px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8px; */
+    background: #94DFF8;
+    /* min-width: 150px;
+    max-width: 400px; */
+}
+
+.show_dog_img {
+    width: 100%;
+    height: 100%;
+}
+
+.show_dogs_item_info_div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.show_dogs_item_name {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.show_dogs_item_breed {
+    color: #02455C;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.show_dogs_item_address {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+/* Show dog second section */
+
+.show_dogs_second_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 60px 240px;
+    min-width: 824px;
+    /* max-width: 1624px; */
+    align-self: stretch;
+}
+
+.show_dog_second_section_text_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.show_dog_second_title {
+    color: #08759A;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.show_dog_second_section_text {
+    color: #323232;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.show_dogs_second_section_submit_dog_btn_div {
+    width: 240px;
+    height: 56px;
+}
+
+.show_dogs_second_section_submit_dog_btn {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: #1C9DC9;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+    padding: 12px 25px;
+}

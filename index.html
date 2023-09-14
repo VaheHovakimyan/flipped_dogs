@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/header/Header.css">
+    <link rel="stylesheet" href="./styles/header/HeaderMedia.css">
+    <link rel="stylesheet" href="./styles/welcome/Welcome_left.css">
+    <link rel="stylesheet" href="./styles/welcome/Welcome_right.css">
+    <link rel="stylesheet" href="./styles/welcome/WelcomeMedia.css">
+    <link rel="stylesheet" href="./styles/features/Features.css">
+    <link rel="stylesheet" href="./styles/features/FeaturesMedia.css">
+    <link rel="stylesheet" href="./styles/today_topics/TodayTopics.css">
+    <link rel="stylesheet" href="./styles/today_topics/TodayTopicsMedia.css">
+    <link rel="stylesheet" href="./styles/show_dogs/ShowDogs.css">
+    <link rel="stylesheet" href="./styles/footer/Footer.css">
+    <title>Flipped on dogs</title>
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+    <article class="header_and_welcome">
+
+        <header class="header">
+
+            <section class="header_section">
+
+                <div class="logo_flex">
+                    <div class="header_logo" id="logo">
+                        <img src="./pics/icons/header/header_logo.svg" class="logo" alt="header_logo">
+                    </div>
+                </div>
+
+                <nav>
+                    <div class="mid_div">
+
+                        <div class="route">
+                            <div class="router_text_mid">GAME</div>
+                        </div>
+
+
+                        <div class="route_scrapbook">
+
+                            <div class="your_scrapbook">
+                                <img src="./pics/icons/header/your_scrapbook.svg" alt="your_scrapbook_icon">
+                                <div class="your_scrapbook_text_flex">
+                                    <p class="your_scrapbook_text">
+                                        <span>YOUR</span>
+                                        <span>SCRAPBOOK</span>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="your_scrapbook">
+                                <img src="./pics/icons/header/progress_bar.svg" alt="progress_bar_icon">
+                                <p class="your_scrapbook_progress_text">
+                                    <span>55</span>
+                                    <span class="blue_sky_text">/100</span>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="route">
+                            <div class="router_text_mid">TOPICS</div>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <div class="sign_log_burger">
+                    <div class="header_btns">
+                        <div class="login_button">
+                            <span class="header_btn_login_text">LOG IN</span>
+                        </div>
+                        <button class="signup_button">
+                            <span class="header_btn_text">SIGN UP</span>
+                        </button>
+                    </div>
+
+                    <div class="burger_div" onclick="Burger()" id="burger">
+                        <img src="./pics/icons/header/burger_icon.svg" alt="burger_icon">
+                    </div>
+                </div>
+
+            </section>
+
+            <article class="menu_article" id="menu">
+                <div class="menu_div">
+                    <div class="menu_div_gap">
+                        <div>
+                            <div class="menu_header">
+                                <div class="menu_header_logo_div">
+                                    <img src="./pics/icons/header/menu/menu_logo.svg" alt="menu_header_logo">
+                                </div>
+                                <div class="menu_header_x_login_btn_div">
+                                    <div class="menu_header_x_btn" onclick="Burger()">
+                                        <img src="./pics/icons/header/menu/menu_close_btn.svg" alt="menu_close_btn">
+                                    </div>
+                                    <div class="menu_header_login_btn_div">
+                                        <button class="menu_header_login_btn">LOG IN</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu_elements">
+                            <div class="menu_mid_divs_and_input">
+                                <div class="menu_input_div_flex">
+                                    <div class="menu_input_div">
+                                        <input type="text" class="menu_header_input" placeholder="Placeholder">
+                                        <img src="./pics/icons/header/menu/search_icon.svg" class="search_icon" alt="search_icon">
+                                    </div>
+                                </div>
+                                <div class="menu_mid_divs">
+                                    <div class="menu_header_routes">
+                                        <div class="menu_header_route">
+                                            <p class="menu_header_route_txt">GAME</p>
+                                        </div>
+                                        <div class="menu_header_route_your_scrapbook">
+                                            <p class="menu_header_route_scrapbook">
+                                                <span class="menu_header_route_txt_span">YOUR</span>
+                                                <span class="menu_header_route_txt_span">SCRAPBOOK</span>
+                                            </p>
+                                            <div class="menu_header_your_scrapbook_progress_div">
+                                                <img src="./pics/icons/header/menu/menu_progress_bar.svg"
+                                                    alt="progress_bar">
+                                                <div>
+                                                    <span class="menu_header_route_question_txt">?</span>
+                                                    <span class="menu_header_route_percent_txt">/100</span>
+                                                </div>
+                                                <p class="menu_header_login_to_view">Log In to View</p>
+                                            </div>
+                                        </div>
+                                        <div class="menu_header_route_topics_submit_dog_div">
+                                            <div class="menu_header_route_topics_smb_div">
+                                                <p class="menu_header_route_txt">TOPICS</p>
+                                            </div>
+                                            <div class="menu_header_route_topics_smb_div">
+                                                <p class="menu_header_route_txt">SUBMIT MY DOG</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="menu_footer_routes">
+                                        <div class="menu_footer_route">
+                                            About Us
+                                        </div>
+                                        <div class="menu_footer_route">
+                                            Community Guidelines
+                                        </div>
+                                        <div class="menu_footer_route">
+                                            How To Play
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu_social_icons_and_txt_div">
+                                <div class="menu_social_icons_follow_txt">
+                                    Follow us:
+                                </div>
+                                <div class="menu_social_icons">
+                                    <img src="./pics/icons/header/menu/tiktok.svg" alt="tiktok_icon">
+                                    <img src="./pics/icons/header/menu/instagram.svg" alt="instagram_icon">
+                                    <img src="./pics/icons/header/menu/facebook.svg" alt="facebook_icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </header>
+
+        <article class="welcome_main">
+
+            <div class="welcome_parts">
+
+                <section class="welcome_main_left_part">
+
+                    <div class="welcome_main_left_part_elements">
+                        <div class="welcome_main_left_part_text_div">
+
+                            <p class="welcome_main_left_part_first_p">
+                                Get in the know.
+                            </p>
+
+                            <p class="welcome_main_left_part_second_p">
+                                Get in on the fun.
+                            </p>
+
+                            <p class="welcome_main_left_part_third_p">
+                                Duis aute irure dolor in reprehenderit in voluptate velit
+                            </p>
+
+                        </div>
+
+                        <div class="fight_or_play_div">
+                            <div class="paws_score_subtext">
+
+                                <div class="paws_score">
+                                    <div class="paws_flex">
+                                        <div class="paws">
+                                            <div>
+                                                <img src="./pics/icons/welcome/first_paw.svg" alt="first_paw">
+                                            </div>
+                                            <div>
+                                                <img src="./pics/icons/welcome/second_paw.svg" alt="second_paw">
+                                            </div>
+                                            <div>
+                                                <img src="./pics/icons/welcome/third_paw.svg" alt="third_paw">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="score_circle">
+                                        <p class="score_text">3,785</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="welcome_left_part_subtext">
+                                    <p>Will this be...</p>
+                                </div>
+
+
+                            </div>
+
+                            <div class="fight_or_play_image">
+                                <img src="./pics/images/welcome_images/fight_or_play_image.png"
+                                    class="fight_or_play_img" alt="fight_or_play_image">
+                            </div>
+                            <div class="fight_or_play_btns_div">
+                                <button class="fight_or_play_btn">FIGHT</button>
+                                <p class="fight_or_play_or_text">or</p>
+                                <button class="fight_or_play_btn">PLAY</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="play_today_game">
+                        <div class="play_today_game_btn_div">
+                            <button class="play_today_game_btn">PLAY TODAY’S GAME</button>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <section class="welcome_main_right_part">
+
+                    <div class="welcome_main_right_part_first_two_elements">
+
+                        <div class="welcome_right_part_first_div">
+                            <h2 class="welcome_right_part_first_div_first_text">THINK YOU</h2>
+                            <h2 class="welcome_right_part_first_div_second_text">KNOW DOGS?</h2>
+                        </div>
+
+                        <div class="welcome_right_part_second_div">
+                            <img src="./pics/images/welcome_images/three_dog_image.png" class="welcome_right_part_image"
+                                alt="three_dog_image">
+                        </div>
+
+                    </div>
+
+                    <div class="welcome_right_part_third_div">
+                        <p class="welcome_main_right_part_third_div_first_text">Poppies</p>
+                        <p class="welcome_main_right_part_third_div_second_text">Is Your Dog 100% Safe Around Kids?</p>
+                    </div>
+                </section>
+
+            </div>
+
+        </article>
+
+        <article class="features_main">
+            <section class="features">
+
+                <div class="feature_item">
+                    <div>
+                        <img src="./pics/icons/features/game_icon.svg" alt="game_icon">
+                    </div>
+
+                    <div class="feature_item_text_div">
+                        <h4 class="feature_item_title">GAME</h4>
+                        <p class="feature_item_text">Duis aute irure dolor in reprehenderit </p>
+                    </div>
+
+                </div>
+
+                <div class="feature_item">
+
+                    <div>
+                        <img src="./pics/icons/features/your_scrapbook.svg" alt="scrapbook_icon">
+                    </div>
+
+                    <div class="feature_item_text_div">
+                        <h4 class="feature_item_title">YOUR SCRAPBOOK</h4>
+                        <p class="feature_item_text">Duis aute irure dolor in reprehenderit </p>
+                    </div>
+                </div>
+
+                <div class="feature_item">
+
+                    <div>
+                        <img src="./pics/icons/features/topics_icon.svg" alt="topics_icon">
+                    </div>
+
+                    <div class="feature_item_text_div">
+                        <h4 class="feature_item_title">TOPICS</h4>
+                        <p class="feature_item_text">Duis aute irure dolor in reprehenderit </p>
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+
+    </article>
+
+    <main>
+
+        <!-- Today Topics -->
+
+        <article class="today_topics_article">
+
+            <section class="today_topics_section">
+
+                <div class="today_topics_title_div">
+                    <h2 class="today_topics_title">TODAY’S TOPICS</h2>
+                    <img src="./pics/icons/today_topics/today_topics.svg" alt="today_topics_dog_icon">
+                </div>
+
+                <div class="today_topics_and_see_all_topics_btn_div">
+
+                    <section class="today_topics">
+
+                        <!-- Today topics left part -->
+
+                        <div class="today_topics_left_part">
+
+                            <div class="today_topics_left_part_first_div">
+
+                                <div class="today_topics_baby_dog_img">
+                                    <img src="./pics/images/today_topics/today_topics_left_part_dog_and_baby.png"
+                                        class="today_topics_left_part_image" alt="dog_and_baby_image">
+                                </div>
+
+                                <div class="today_topics_left_part_firts_text_div">
+                                    <h5 class="today_topics_left_part_first_div_title">
+                                        Poppies
+                                    </h5>
+                                    <h3 class="today_topics_left_part_first_div_text">
+                                        Is Your Dog 100% Safe Around Kids?
+                                    </h3>
+                                    <p class="today_topics_left_part_first_div_subtext">
+                                        Duis aute irure dolor
+                                        inreprehenderit in voluptate velit essecillum.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- Dogs latest -->
+
+                            <div class="today_topics_left_part_second_div">
+
+                                <div class="today_topics_left_part_title_div">
+                                    <h4 class="today_topics_left_part_title">Latest</h4>
+                                </div>
+
+                                <!-- Dog divs -->
+
+                                <section class="today_topics_left_part_section">
+
+                                    <div class="today_topics_left_part_item">
+
+                                        <div>
+                                            <div class="today_topics_left_part_item_img_div">
+                                                <img src="./pics/images/today_topics/today_topics_left_part_poppies_image.png"
+                                                    class="today_topics_left_part_item_img" alt="poppies_image">
+                                            </div>
+                                        </div>
+
+                                        <div class="today_topics_left_part_item_text_div">
+                                            <div>
+                                                <h4 class="today_topics_left_part_second_div_title">
+                                                    Poppies
+                                                </h4>
+                                            </div>
+                                            <div class="today_topics_left_part_second_div_text_div">
+                                                <h2 class="today_topics_left_part_second_div_text">
+                                                    Puppy Zone
+                                                    Prevents Problems
+                                                </h2>
+                                                <p class="today_topics_left_part_second_div_subtext">
+                                                    Duis aute irure dolor inreprehenderit in voluptate velit essecillum.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="today_topics_left_part_item">
+                                        <div>
+                                            <div class="today_topics_left_part_item_img_div">
+                                                <img src="./pics/images/today_topics/today_topics_left_part_family_dog.png"
+                                                    class="today_topics_left_part_item_img" alt="poppies_image">
+                                            </div>
+                                        </div>
+
+                                        <div class="today_topics_left_part_item_text_div">
+                                            <div>
+                                                <h4 class="today_topics_left_part_second_div_title">
+                                                    Poppies
+                                                </h4>
+                                            </div>
+                                            <div class="today_topics_left_part_second_div_text_div">
+                                                <h2 class="today_topics_left_part_second_div_text">
+                                                    Family
+                                                    Training Tips
+                                                </h2>
+                                                <p class="today_topics_left_part_second_div_subtext">
+                                                    Duis aute irure dolor inreprehenderit in voluptate velit essecillum.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Today topics right part  -->
+
+                        <div class="today_topics_right_part">
+
+                            <div class="today_topics_trending_title_tranding_items_div">
+
+
+                                <div class="today_topics_right_part_title_line_div">
+
+                                    <div class="today_topics_right_part_title_div">
+                                        <h3 class="today_topics_right_part_title">Trending</h3>
+                                    </div>
+
+                                    <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                </div>
+
+                                <div class="trending_items_div">
+
+                                    <!-- First -->
+
+                                    <div class="trending_item">
+
+                                        <div class="trending_item_elements_div">
+
+                                            <div class="trending_today_topics_name_date_div">
+                                                <p class="trending_today_topics_name">Poppies</p>
+                                                <p class="trending_today_topics_date">3 hours ago</p>
+                                            </div>
+
+                                            <div class="trending_item_text_div">
+                                                <h3 class="trending_item_text">
+                                                    Why Pupphood
+                                                    is the Most
+                                                    important Time
+                                                </h3>
+                                                <p class="trending_item_subtext">
+                                                    Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit essecillum.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                    </div>
+
+                                    <!-- Second -->
+
+                                    <div class="trending_item">
+
+                                        <div class="trending_item_elements_div">
+
+                                            <div class="trending_today_topics_name_date_div">
+                                                <p class="trending_today_topics_name">Dog Toys</p>
+                                                <p class="trending_today_topics_date">Jun 14</p>
+                                            </div>
+
+                                            <div class="trending_item_text_div">
+                                                <h3 class="trending_item_text">
+                                                    Shelter Life
+                                                    Can Be Ruff
+                                                </h3>
+                                                <p class="trending_item_subtext">
+                                                    Duis aute irure dolor inreprehenderit in
+                                                    voluptate velit essecillum.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                    </div>
+
+                                    <!-- Third -->
+
+                                    <div class="trending_item">
+
+                                        <div class="trending_item_elements_div">
+
+                                            <div class="trending_today_topics_name_date_div">
+                                                <p class="trending_today_topics_name">Poppies</p>
+                                                <p class="trending_today_topics_date">3 hours ago</p>
+                                            </div>
+
+                                            <div class="trending_item_text_div">
+                                                <h3 class="trending_item_text">
+                                                    Make Your Own
+                                                    Tug Toys
+                                                </h3>
+                                                <p class="trending_item_subtext">
+                                                    Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit essecillum.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                    </div>
+
+                                    <!-- Fourth -->
+
+                                    <div class="trending_item">
+
+                                        <div class="trending_item_elements_div">
+
+                                            <div class="trending_today_topics_name_date_div">
+                                                <p class="trending_today_topics_name">Poppies</p>
+                                                <p class="trending_today_topics_date">3 hours ago</p>
+                                            </div>
+
+                                            <div class="trending_item_text_div">
+                                                <h3 class="trending_item_text">
+                                                    Stop Barking
+                                                </h3>
+                                                <p class="trending_item_subtext">
+                                                    Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit essecillum.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                    </div>
+
+                                    <!-- Fifth -->
+
+                                    <div class="trending_item">
+
+                                        <div class="trending_item_elements_div">
+
+                                            <div class="trending_today_topics_name_date_div">
+                                                <p class="trending_today_topics_name">Poppies</p>
+                                                <p class="trending_today_topics_date">3 hours ago</p>
+                                            </div>
+
+                                            <div class="trending_item_text_div">
+                                                <h3 class="trending_item_text">
+                                                    Is Your Dog 100% Safe
+                                                    Around Kids?
+                                                </h3>
+                                                <p class="trending_item_subtext">
+                                                    Duis aute irure dolor in reprehenderit in
+                                                    voluptate velit essecillum.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <img src="./pics/icons/today_topics/trending_line.svg" alt="trending_line">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <div class="today_topics_see_all_topics_btn_div">
+                        <button class="today_topics_see_all_topics_btn">SEE ALL TOPICS</button>
+                    </div>
+
+                </div>
+
+            </section>
+        </article>
+
+
+        <article class="show_dogs_article">
+
+            <section class="show_dogs_first_section">
+
+                <!-- First -->
+                <div class="show_dogs_item">
+                    <div class="show_dogs_item_dog_image_div">
+                        <img src="./pics/images/show_dogs/show_dog_first_img.png" class="show_dog_img"
+                            alt="first_dog_image">
+                    </div>
+                    <div class="show_dogs_item_info_div">
+                        <div class="show_dogs_item_info_flex">
+                            <h5 class="show_dogs_item_name">Lola</h5>
+                            <p class="show_dogs_item_breed">Sock Stealer</p>
+                        </div>
+                        <div class="show_dogs_item_address_div">
+                            <p class="show_dogs_item_address">Pacifica, CA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second -->
+                <div class="show_dogs_item">
+                    <div class="show_dogs_item_dog_image_div">
+                        <img src="./pics/images/show_dogs/show_dog_second_img.png" class="show_dog_img"
+                            alt="second_dog_image">
+                    </div>
+                    <div class="show_dogs_item_info_div">
+                        <div class="show_dogs_item_info_flex">
+                            <h5 class="show_dogs_item_name">Lola</h5>
+                            <p class="show_dogs_item_breed">Sock Stealer</p>
+                        </div>
+                        <div class="show_dogs_item_address_div">
+                            <p class="show_dogs_item_address">Pacifica, CA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third -->
+                <div class="show_dogs_item">
+                    <div class="show_dogs_item_dog_image_div">
+                        <img src="./pics/images/show_dogs/show_dog_third_img.png" class="show_dog_img"
+                            alt="third_dog_image">
+                    </div>
+                    <div class="show_dogs_item_info_div">
+                        <div class="show_dogs_item_info_flex">
+                            <h5 class="show_dogs_item_name">Lola</h5>
+                            <p class="show_dogs_item_breed">Sock Stealer</p>
+                        </div>
+                        <div class="show_dogs_item_address_div">
+                            <p class="show_dogs_item_address">Pacifica, CA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth -->
+                <div class="show_dogs_item">
+                    <div class="show_dogs_item_dog_image_div">
+                        <img src="./pics/images/show_dogs/show_dog_fourth_img.png" class="show_dog_img"
+                            alt="fourth_dog_image">
+                    </div>
+                    <div class="show_dogs_item_info_div">
+                        <div class="show_dogs_item_info_flex">
+                            <h5 class="show_dogs_item_name">Lola</h5>
+                            <p class="show_dogs_item_breed">Sock Stealer</p>
+                        </div>
+                        <div class="show_dogs_item_address_div">
+                            <p class="show_dogs_item_address">Pacifica, CA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="show_dogs_second_section">
+
+                <div class="show_dog_second_section_text_div">
+                    <div class="show_dog_second_title_div">
+                        <h2 class="show_dog_second_title">
+                            SHOW OFF YOUR DOG
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="show_dog_second_section_text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="show_dogs_second_section_submit_dog_btn_div">
+                    <button class="show_dogs_second_section_submit_dog_btn">SUBMIT MY DOG</button>
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="footer_top_linear"></div>
+        <article class="footer_article">
+            <section class="footer_logo_section">
+                <div>
+                    <img src="./pics/icons/footer/footer_logo.svg" alt="footer_logo">
+                </div>
+            </section>
+            <section class="footer_elements">
+                <div class="footer_three_elemets">
+
+                    <!-- First -->
+                    <div class="footer_item">
+                        <div>
+                            <h3 class="footer_item_title">GAME</h3>
+                        </div>
+                        <div>
+                            <p class="footer_item_text">Play Today’s Game</p>
+                            <p class="footer_item_text">Submit My Dog</p>
+                            <p class="footer_item_text">Your Scrapbook</p>
+                        </div>
+                    </div>
+
+                    <!-- Second -->
+                    <div class="footer_item">
+                        <div>
+                            <h3 class="footer_item_title">TOPICS</h3>
+                        </div>
+                        <div>
+                            <p class="footer_item_text">All Topics</p>
+                            <p class="footer_item_text">Community Guidelines</p>
+                        </div>
+                    </div>
+
+                    <!-- Third -->
+                    <div class="footer_item">
+                        <div>
+                            <h3 class="footer_item_title">ABOUT</h3>
+                        </div>
+                        <div>
+                            <p class="footer_item_text">About Us</p>
+                            <p class="footer_item_text">Give Feedback</p>
+                            <p class="footer_item_text">Privacy Policy</p>
+                            <p class="footer_item_text">Terms & Conditions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_sign_up_social">
+                    <div class="footer_sign_up_input_div">
+                        <div class="footer_sign_up_text_title_div">
+
+                            <div class="footer_sign_up_title">
+
+                                <h3 class="footer_sign_up_bold">
+                                    SIGN UP
+                                </h3>
+
+                                <p class="footer_sign_up_regular">
+                                    and never miss out
+                                </p>
+
+                            </div>
+
+                            <div class="footer_sign_up_text">
+                                on saving your points and cards!
+                            </div>
+
+                        </div>
+
+                        <div class="footer_input_submit_btn_div">
+                            <input type="email" class="footer_email_input" placeholder="Email">
+                            <div class="footer_submit_btn_div">
+                                <button class="footer_submit_btn">SUBMIT</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="footer_follow_us_social_icons">
+                        <p class="footer_social_icons_text">Follow us: </p>
+                        <img src="./pics/icons/footer/footer_icons/tiktok_icon.svg" alt="tiktok_icon">
+                        <img src="./pics/icons/footer/footer_icons/instagram_icon.svg" alt="instagram_icon">
+                        <img src="./pics/icons/footer/footer_icons/facebook_icon.svg" alt="facebook_icon">
+                    </div>
+                </div>
+            </section>
+        </article>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

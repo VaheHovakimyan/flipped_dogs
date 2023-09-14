@@ -1,0 +1,230 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Raleway:wght@700&display=swap');
+
+/* Style */
+
+.welcome_main {
+
+    display: none;
+    /************************************************************/
+    /* display: flex; */
+    /************************************************************/
+
+    padding: 64px 260px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+    background-color: #EAF7FC;
+}
+
+.welcome_parts {
+    display: flex;
+    /* width: 1400px; */
+    align-items: flex-start;
+    gap: 80px;
+    flex-shrink: 0;
+}
+
+.welcome_main_left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+}
+
+.welcome_main_left_part_elements {
+    display: flex;
+    width: 660px;
+    align-items: center;
+    gap: 24px;
+}
+
+.welcome_main_left_part_text_div {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.welcome_main_left_part_first_p {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.welcome_main_left_part_second_p {
+    color: #1C9DC9;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.welcome_main_left_part_third_p {
+    color: #323232;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.fight_or_play_div {
+    display: flex;
+    width: 408px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 32px 32px 0px 0px;
+    border-top: 8px solid #1C9DC9;
+    border-right: 8px solid #1C9DC9;
+    border-left: 8px solid #1C9DC9;
+    background: #EAF7FC;
+}
+
+.welcome_main_left_part_elements {
+    display: flex;
+}
+
+.paws_score_subtext {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paws_score {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.paws {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.score_circle {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border: 4px #94DFF8 solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score_text {
+    color: #177FA3;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.welcome_left_part_subtext {
+    color: #177FA3;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.fight_or_play_img {
+    width: 100%;
+    border: 4px #1C9DC9 solid;
+    border-radius: 22px;
+}
+
+.fight_or_play_btns_div {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.fight_or_play_btn {
+    display: flex;
+    width: 100%;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    border: 2px solid #1C9DC9;
+    background: #FFF;
+    box-shadow: 0px 3px 0px 0px #000;
+    color: #1C9DC9;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.fight_or_play_or_text {
+    color: #1C9DC9;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+
+.play_today_game_btn_div {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.play_today_game_btn {
+    /* display: flex; */
+    width: 400px;
+    height: 64px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    border-radius: 14px;
+    background: #1C9DC9;
+    box-shadow: 0px 4px 0px 0px #000;
+    border: 0;
+}
