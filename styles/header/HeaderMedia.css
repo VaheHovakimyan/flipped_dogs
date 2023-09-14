@@ -63,6 +63,13 @@
     .burger_icon{
         width: 40px;
     }
+
+    /* Menu responsive */
+
+    .menu_div{
+        width: 100%;
+        border-radius: 0px;
+    }
 }
 
 /* Mobile version */
