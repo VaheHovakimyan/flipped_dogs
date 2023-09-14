@@ -46,7 +46,8 @@
                         <div class="route_scrapbook">
 
                             <div class="your_scrapbook">
-                                <img src="./pics/icons/header/your_scrapbook.svg" alt="your_scrapbook_icon">
+                                <img src="./pics/icons/header/your_scrapbook.svg" class="scrapbook_icon"
+                                    alt="your_scrapbook_icon">
                                 <div class="your_scrapbook_text_flex">
                                     <p class="your_scrapbook_text">
                                         <span>YOUR</span>
@@ -56,7 +57,8 @@
 
                             </div>
                             <div class="your_scrapbook">
-                                <img src="./pics/icons/header/progress_bar.svg" alt="progress_bar_icon">
+                                <img src="./pics/icons/header/progress_bar.svg" class="header_progress_bar"
+                                    alt="progress_bar_icon">
                                 <p class="your_scrapbook_progress_text">
                                     <span>55</span>
                                     <span class="blue_sky_text">/100</span>
@@ -83,7 +85,7 @@
                     </div>
 
                     <div class="burger_div" onclick="Burger()" id="burger">
-                        <img src="./pics/icons/header/burger_icon.svg" alt="burger_icon">
+                        <img src="./pics/icons/header/burger_icon.svg" class="burger_icon" alt="burger_icon">
                     </div>
                 </div>
 
@@ -112,7 +114,8 @@
                                 <div class="menu_input_div_flex">
                                     <div class="menu_input_div">
                                         <input type="text" class="menu_header_input" placeholder="Placeholder">
-                                        <img src="./pics/icons/header/menu/search_icon.svg" class="search_icon" alt="search_icon">
+                                        <img src="./pics/icons/header/menu/search_icon.svg" class="search_icon"
+                                            alt="search_icon">
                                     </div>
                                 </div>
                                 <div class="menu_mid_divs">
@@ -178,7 +181,7 @@
 
             <div class="welcome_parts">
 
-                <section class="welcome_main_left_part">
+                <section class="welcome_main_left_part" id="welcome_left_part">
 
                     <div class="welcome_main_left_part_elements">
                         <div class="welcome_main_left_part_text_div">
@@ -197,46 +200,56 @@
 
                         </div>
 
-                        <div class="fight_or_play_div">
-                            <div class="paws_score_subtext">
+                        <div class="welcome_left_part_mobile_flex_direction">
 
-                                <div class="paws_score">
-                                    <div class="paws_flex">
-                                        <div class="paws">
-                                            <div>
-                                                <img src="./pics/icons/welcome/first_paw.svg" alt="first_paw">
-                                            </div>
-                                            <div>
-                                                <img src="./pics/icons/welcome/second_paw.svg" alt="second_paw">
-                                            </div>
-                                            <div>
-                                                <img src="./pics/icons/welcome/third_paw.svg" alt="third_paw">
+                            <div class="welcome_left_part_title">
+                                <h2 class="welcome_right_part_first_div_first_text">THINK YOU</h2>
+                                <h2 class="welcome_right_part_first_div_second_text">KNOW DOGS?</h2>
+                            </div>
+
+                            <div class="fight_or_play_div">
+
+                                <div class="paws_score_subtext">
+
+                                    <div class="paws_score">
+                                        <div class="paws_flex">
+                                            <div class="paws">
+                                                <div>
+                                                    <img src="./pics/icons/welcome/first_paw.svg" alt="first_paw">
+                                                </div>
+                                                <div>
+                                                    <img src="./pics/icons/welcome/second_paw.svg" alt="second_paw">
+                                                </div>
+                                                <div>
+                                                    <img src="./pics/icons/welcome/third_paw.svg" alt="third_paw">
+                                                </div>
                                             </div>
                                         </div>
+
+                                        <div class="score_circle">
+                                            <p class="score_text">3,785</p>
+                                        </div>
+
                                     </div>
 
-                                    <div class="score_circle">
-                                        <p class="score_text">3,785</p>
+                                    <div class="welcome_left_part_subtext">
+                                        <p>Will this be...</p>
                                     </div>
+
 
                                 </div>
 
-                                <div class="welcome_left_part_subtext">
-                                    <p>Will this be...</p>
+                                <div class="fight_or_play_image">
+                                    <img src="./pics/images/welcome_images/fight_or_play_image.png"
+                                        class="fight_or_play_img" alt="fight_or_play_image">
                                 </div>
-
-
+                                <div class="fight_or_play_btns_div">
+                                    <button class="fight_or_play_btn">FIGHT</button>
+                                    <p class="fight_or_play_or_text">or</p>
+                                    <button class="fight_or_play_btn">PLAY</button>
+                                </div>
                             </div>
 
-                            <div class="fight_or_play_image">
-                                <img src="./pics/images/welcome_images/fight_or_play_image.png"
-                                    class="fight_or_play_img" alt="fight_or_play_image">
-                            </div>
-                            <div class="fight_or_play_btns_div">
-                                <button class="fight_or_play_btn">FIGHT</button>
-                                <p class="fight_or_play_or_text">or</p>
-                                <button class="fight_or_play_btn">PLAY</button>
-                            </div>
                         </div>
                     </div>
 
@@ -247,10 +260,19 @@
                         </div>
                     </div>
 
+                    <div class="welcome_bottom_slider_buttons">
+                        <div>
+                            <img src="./pics/icons/welcome/mobile_slide_active_button.svg" onclick="PartSlide()" id="welcome_mobile_first_button" alt="slider_button">
+                        </div>
+                        <div>
+                            <img src="./pics/icons/welcome/mobile_slide_unactive_button.svg" onclick="PartSlide()" id="welcome_mobile_second_button" alt="slider_button">
+                        </div>
+                    </div>
+
                 </section>
 
 
-                <section class="welcome_main_right_part">
+                <section class="welcome_main_right_part" id="welcome_right_part">
 
                     <div class="welcome_main_right_part_first_two_elements">
 
@@ -269,6 +291,20 @@
                     <div class="welcome_right_part_third_div">
                         <p class="welcome_main_right_part_third_div_first_text">Poppies</p>
                         <p class="welcome_main_right_part_third_div_second_text">Is Your Dog 100% Safe Around Kids?</p>
+                    </div>
+
+                    <p class="welcome_mobile_right_part_bottom_txt">
+                        Duis aute irure dolor inreprehenderit in 
+                        voluptate velit  essecillum
+                    </p>
+
+                    <div class="welcome_bottom_right_slider_buttons">
+                        <div>
+                            <img src="./pics/icons/welcome/mobile_slide_active_button.svg" onclick="PartSlide()" id="welcome_mobile_first_button" alt="slider_button">
+                        </div>
+                        <div>
+                            <img src="./pics/icons/welcome/mobile_slide_unactive_button.svg" onclick="PartSlide()" id="welcome_mobile_second_button" alt="slider_button">
+                        </div>
                     </div>
                 </section>
 

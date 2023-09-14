@@ -6,9 +6,9 @@
 /* Style */
 
 .welcome_main_right_part {
-    display: none;
+    /* display: none; */
     /************************************************************/
-    /* display: flex; */
+    display: flex;
     /************************************************************/
 
     flex-direction: column;
@@ -17,7 +17,7 @@
     flex: 1 0 0;
     align-self: stretch;
     max-width: 650px;
-    min-width: 350px;
+    min-width: 330px;
 }
 
 .welcome_main_right_part_first_two_elements {
@@ -70,4 +70,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
+}
+
+.welcome_mobile_right_part_bottom_txt{
+    display: none;
+}
+
+.welcome_bottom_right_slider_buttons{
+    display: none;
 }

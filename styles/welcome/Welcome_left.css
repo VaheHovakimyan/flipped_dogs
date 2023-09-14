@@ -8,9 +8,9 @@
 
 .welcome_main {
 
-    display: none;
+    /* display: none; */
     /************************************************************/
-    /* display: flex; */
+    display: flex;
     /************************************************************/
 
     padding: 64px 260px;
@@ -23,12 +23,22 @@
     background-color: #EAF7FC;
 }
 
+
+
 .welcome_parts {
     display: flex;
     /* width: 1400px; */
     align-items: flex-start;
     gap: 80px;
     flex-shrink: 0;
+}
+
+.welcome_bottom_slider_buttons{
+    display: none;
+}
+
+.welcome_left_part_title{
+    display: none;
 }
 
 .welcome_main_left_part {

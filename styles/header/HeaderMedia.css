@@ -1,3 +1,5 @@
+/* Small desktop version */
+
 @media only screen and (max-width:1150px){
     .header_section{
         padding: 16px 24px 4px 24px;
@@ -22,6 +24,8 @@
     }
 }
 
+/* Tablet version */
+
 @media only screen and (max-width:900px){
     .logo_flex{
         width: 130px;
@@ -34,5 +38,69 @@
 
     .logo{
         width: 100%;
+    }
+
+    .scrapbook_icon{
+        width: 50px;
+    }
+
+    .header_progress_bar{
+        width: 80px;
+    }
+
+    .your_scrapbook_progress_text{
+        font-size: 10px;
+    }
+
+    .signup_button{
+        width: 120px;
+    }
+
+    .header_btn_text{
+        font-size: 15px;
+    }
+
+    .burger_icon{
+        width: 40px;
+    }
+}
+
+/* Mobile version */
+
+@media only screen and (max-width:600px){
+    .logo_flex{
+        width: 100px;
+    }
+
+    .scrapbook_icon{
+        width: 40px;
+    }
+
+    .header_progress_bar{
+        width: 45px;
+    }
+
+    .your_scrapbook_progress_text{
+        font-size: 6.5px;
+    }
+
+    .sign_log_burger{
+        gap: 10px;
+    }
+
+    .signup_button{
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_btn_text{
+        font-size: 9px;
+    }
+
+    .burger_icon{
+        width: 30px;
     }
 }
