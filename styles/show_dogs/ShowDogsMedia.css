@@ -83,4 +83,22 @@
         line-height: 20px;
     }
 
+    .show_dog_img_and_arrow_icons{
+        position: relative;
+    }
+
+    .show_dog_arrow_icons{
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .arrow_icon{
+        cursor: pointer;
+        padding: 0px 5px;
+    }
+
 }

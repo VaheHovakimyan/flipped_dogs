@@ -140,4 +140,11 @@
     .play_today_game_btn_div {
         padding: 0px;
     }
+
+    .welcome_left_part_main_div_btn_div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
 }
