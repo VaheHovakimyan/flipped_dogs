@@ -78,6 +78,10 @@
     .menu_header_routes{
         gap: 15px;
     }
+
+    .menu_header_route_txt_span{
+        line-height: 35px;
+    }
 }
 
 /* Mobile version */
