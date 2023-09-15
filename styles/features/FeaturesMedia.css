@@ -1,0 +1,26 @@
+/* Small desktop version */
+
+@media only screen and (max-width:1150px) {
+    .features_main {
+        padding: 64px 60px;
+    }
+}
+
+
+/* Tablet version */
+
+@media only screen and (max-width:900px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width:600px){
+    .feature_item{
+        height: auto;
+    }
+}

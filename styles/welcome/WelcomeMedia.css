@@ -5,6 +5,10 @@
 /* Small desktop version */
 
 @media only screen and (max-width:1150px) {
+    .welcome_main {
+        padding: 64px 20px;
+    }
+
     .welcome_main_left_part_text_div {
         display: none;
     }
@@ -21,7 +25,7 @@
 
     .welcome_main {
         height: 100%;
-        padding: 64px 60px;
+        padding: 64px 20px;
     }
 
     .welcome_right_part_first_div {
@@ -72,6 +76,7 @@
 
 }
 
+
 /* Mobile version */
 
 @media only screen and (max-width:600px) {
@@ -84,5 +89,55 @@
     .welcome_right_part_first_div_second_text {
         font-size: 35px;
         line-height: 40px;
+    }
+
+    .fight_or_play_div {
+        width: 330px;
+    }
+
+    .paws_score_subtext {
+        align-items: flex-start;
+    }
+
+    .paws_score {
+        justify-content: flex-start;
+    }
+
+    .fight_or_play_btns_div {
+        width: 270px;
+    }
+
+    .score_circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .score_text {
+        font-size: 15px;
+    }
+
+    .play_today_game_btn {
+        width: 330px;
+        font-size: 20px;
+    }
+
+    .big_paw_img {
+        width: 50px
+    }
+
+    .small_paw_img {
+        width: 35px;
+    }
+
+    .paws_score {
+        gap: 25px;
+    }
+
+    .paws_score_subtext {
+        width: auto;
+    }
+
+    .play_today_game_btn_div {
+        padding: 0px;
     }
 }

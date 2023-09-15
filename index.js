@@ -32,7 +32,6 @@ let part_slide_bool = false;
 
 function PartSlide(){
 
-    
     part_slide_bool = !part_slide_bool;
 
     if(part_slide_bool){

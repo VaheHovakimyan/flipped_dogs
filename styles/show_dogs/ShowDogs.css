@@ -9,42 +9,32 @@
 /* Show dog first section */
 
 .show_dogs_article {
-    display: none;
+    /* display: none; */
     /************************************************************/
-    /* display: flex; */
+    display: flex;
     /************************************************************/
 
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    /* padding: 60px 240px; */
-    /* min-width: 750px;
-    max-width: 1300px; */
 }
 
 .show_dogs_first_section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* align-items: center; */
     padding: 0 60px;
     gap: 8px;
-    /* width: 100%; */
 }
 
 .show_dogs_item {
     display: flex;
-    /* width: 344px;
-    height: 310px; */
     min-width: 200px;
     max-width: 400px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: center;
-    /* gap: 8px; */
     background: #94DFF8;
-    /* min-width: 150px;
-    max-width: 400px; */
 }
 
 .show_dog_img {
@@ -92,13 +82,18 @@
 /* Show dog second section */
 
 .show_dogs_second_section {
+
+    /* display: none; */
+
+    /************************************************************/
     display: flex;
+    /************************************************************/
+
     flex-direction: column;
     align-items: center;
     gap: 24px;
     padding: 60px 240px;
     min-width: 824px;
-    /* max-width: 1624px; */
     align-self: stretch;
 }
 
@@ -154,4 +149,8 @@
     line-height: 28px;
     border: 0;
     padding: 12px 25px;
+}
+
+.show_dogs_second_section_mobile_btn{
+    display: none;
 }

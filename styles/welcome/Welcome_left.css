@@ -23,11 +23,8 @@
     background-color: #EAF7FC;
 }
 
-
-
 .welcome_parts {
     display: flex;
-    /* width: 1400px; */
     align-items: flex-start;
     gap: 80px;
     flex-shrink: 0;
@@ -211,8 +208,6 @@
     line-height: 32px;
 }
 
-
-
 .play_today_game_btn_div {
     display: flex;
     padding: 16px;
@@ -223,7 +218,6 @@
 }
 
 .play_today_game_btn {
-    /* display: flex; */
     width: 400px;
     height: 64px;
     color: #FFF;

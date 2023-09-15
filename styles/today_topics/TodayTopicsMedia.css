@@ -1,0 +1,106 @@
+/* Small desktop version */
+
+@media only screen and (max-width:1150px) {
+
+    .today_topics_title_div {
+        flex-direction: column-reverse;
+    }
+
+    .today_topics {
+        flex-direction: column;
+    }
+}
+
+
+/* Tablet version */
+
+@media only screen and (max-width:900px) {
+    .today_topics_title {
+        text-align: center;
+    }
+
+    .today_topics_left_part {
+        align-items: center;
+    }
+
+    .today_topics_left_part_section {
+        flex-direction: column;
+    }
+
+    .today_topics_left_part_item_img_w_100 {
+        width: 100%;
+    }
+
+    .today_topics_left_part_item {
+        min-width: 320px;
+        max-width: none;
+        width: 100%;
+    }
+
+    .trending_line {
+        width: 100%;
+    }
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width:600px) {
+    .today_topics_article {
+        padding: 60px 10px;
+        min-width: 220px;
+    }
+
+    .today_topics_section {
+        width: 100%;
+    }
+
+    .today_topics_left_part {
+        min-width: 320px;
+    }
+
+    .today_topics_title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .today_topics_left_part_first_div_text {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .today_topics_left_part_first_div_subtext {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .today_topics_left_part_second_div_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .today_topics_left_part_second_div_subtext {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .trending_today_topics_name {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .trending_today_topics_date {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .trending_item_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .trending_item_subtext {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

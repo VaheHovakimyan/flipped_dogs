@@ -1,0 +1,56 @@
+/* Small desktop version */
+
+@media only screen and (max-width:1400px) {
+    .footer_article{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_elements{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+/* Tablet version */
+
+@media only screen and (max-width:900px) {
+    .footer_three_elemets{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width:600px){
+
+    .footer_article{
+        padding: 60px 40px;
+        white-space: normal;
+    }
+
+    .footer_sign_up_title{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_sign_up_bold{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .footer_sign_up_regular{
+        font-weight: 500;
+    }
+
+    .footer_sign_up_regular_cont_txt{
+        display: inline;
+    }
+
+    .footer_sign_up_text {
+        display: none;
+    }
+}

@@ -1,0 +1,86 @@
+/* Small desktop version */
+
+@media only screen and (max-width:1150px) {
+    .show_dogs_first_section {
+        flex-wrap: wrap;
+    }
+
+    .show_dogs_second_section {
+        padding: 60px 60px;
+    }
+}
+
+
+/* Tablet version */
+
+@media only screen and (max-width:900px) {
+
+    .show_dogs_second_section {
+        min-width: 320px;
+        padding: 60px 20px;
+    }
+
+    .show_dog_second_section_mobile_hidden_text {
+        display: none;
+    }
+
+    #show_dogs_item_first {
+        margin: 20px;
+    }
+
+    #show_dogs_item_second {
+        display: none;
+    }
+
+    #show_dogs_item_third {
+        display: none;
+    }
+
+    #show_dogs_item_fourth {
+        display: none;
+    }
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width:600px) {
+
+    .show_dog_second_title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .show_dog_second_section_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .show_dogs_second_section_desktop_btn {
+        display: none;
+    }
+
+    .show_dogs_second_section_mobile_btn {
+        display: inline;
+    }
+
+    .show_dogs_second_section_submit_dog_btn {
+        width: 100%;
+    }
+
+    .show_dogs_item_name {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .show_dogs_item_breed {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .show_dogs_item_address {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+}
