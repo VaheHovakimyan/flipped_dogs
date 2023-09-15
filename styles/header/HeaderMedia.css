@@ -1,106 +1,110 @@
 /* Small desktop version */
 
-@media only screen and (max-width:1150px){
-    .header_section{
+@media only screen and (max-width:1150px) {
+    .header_section {
         padding: 16px 24px 4px 24px;
         gap: 8px;
     }
 
-    .route{
+    .route {
         display: none;
     }
 
-    .login_button{
+    .login_button {
         display: none;
     }
 
-    .your_scrapbook{
+    .your_scrapbook {
         justify-content: center;
         gap: 6px;
     }
 
-    .your_scrapbook_text{
+    .your_scrapbook_text {
         display: none;
     }
 }
 
 /* Tablet version */
 
-@media only screen and (max-width:900px){
-    .logo_flex{
+@media only screen and (max-width:900px) {
+    .logo_flex {
         width: 130px;
     }
 
-    #logo{
+    #logo {
         width: 100%;
         height: 100%;
     }
 
-    .logo{
+    .logo {
         width: 100%;
     }
 
-    .scrapbook_icon{
+    .scrapbook_icon {
         width: 50px;
     }
 
-    .header_progress_bar{
+    .header_progress_bar {
         width: 80px;
     }
 
-    .your_scrapbook_progress_text{
+    .your_scrapbook_progress_text {
         font-size: 10px;
     }
 
-    .signup_button{
+    .signup_button {
         width: 120px;
     }
 
-    .header_btn_text{
+    .header_btn_text {
         font-size: 15px;
     }
 
-    .burger_icon{
+    .burger_icon {
         width: 40px;
     }
 
     /* Menu responsive */
 
-    .menu_div{
+    .menu_div {
         width: 100%;
         border-radius: 0px;
+    }
+
+    .menu_div_gap {
+        gap: 30px;
+    }
+
+    .menu_header_routes{
+        gap: 15px;
     }
 }
 
 /* Mobile version */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
 
-    body{
-        overflow: scroll;
-    }
-
-    .logo_flex{
+    .logo_flex {
         width: 100px;
     }
 
-    .scrapbook_icon{
+    .scrapbook_icon {
         width: 40px;
     }
 
-    .header_progress_bar{
+    .header_progress_bar {
         width: 45px;
     }
 
-    .your_scrapbook_progress_text{
+    .your_scrapbook_progress_text {
         font-size: 6.5px;
     }
 
-    .sign_log_burger{
+    .sign_log_burger {
         gap: 10px;
     }
 
-    .signup_button{
+    .signup_button {
         width: 80px;
         height: 40px;
         display: flex;
@@ -108,11 +112,11 @@
         align-items: center;
     }
 
-    .header_btn_text{
+    .header_btn_text {
         font-size: 9px;
     }
 
-    .burger_icon{
+    .burger_icon {
         width: 30px;
     }
 }
