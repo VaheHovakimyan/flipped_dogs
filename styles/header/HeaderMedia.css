@@ -75,6 +75,11 @@
 /* Mobile version */
 
 @media only screen and (max-width:600px){
+
+    body{
+        overflow: scroll;
+    }
+
     .logo_flex{
         width: 100px;
     }
