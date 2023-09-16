@@ -28,12 +28,15 @@
         padding: 64px 20px;
     }
 
+    .welcome_parts{
+        flex-direction: column;
+    }
+
     .welcome_right_part_first_div {
         text-align: center;
     }
 
     .welcome_main_left_part {
-        height: 900px;
         justify-content: space-between;
         gap: 16px;
     }
@@ -46,7 +49,6 @@
 
     .welcome_main_right_part {
         display: none;
-        height: 900px;
         justify-content: space-between;
     }
 

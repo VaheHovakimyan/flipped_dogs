@@ -153,7 +153,6 @@
 
 .menu_article {
     position: absolute;
-    max-width: 2400px;
     min-width: 270px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -162,7 +161,6 @@
     margin-top: -144px;
     justify-content: flex-end;
     display: none;
-
 }
 
 .menu_div {

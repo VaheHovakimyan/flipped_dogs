@@ -50,9 +50,17 @@ function PartSlide(){
     part_slide_bool = !part_slide_bool;
 
     if(part_slide_bool){
+
+        welcome_first_button.src = "./pics/icons/welcome/mobile_slide_unactive_button.svg";
+        welcome_second_button.src = "./pics/icons/welcome/mobile_slide_active_button.svg";
+
         welcome_left_part.style.display = "none";
         welcome_right_part.style.display = "flex";
     }else{
+
+        welcome_second_button.src = "./pics/icons/welcome/mobile_slide_unactive_button.svg";
+        welcome_first_button.src = "./pics/icons/welcome/mobile_slide_active_button.svg";
+
         welcome_left_part.style.display = "flex";
         welcome_right_part.style.display = "none";
     }
