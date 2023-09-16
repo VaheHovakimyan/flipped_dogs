@@ -24,9 +24,9 @@
         display: none;
     }
 
-    #show_dogs_item_first {
+    /* #show_dogs_item_first {
         margin: 20px;
-    }
+    } */
 
     #show_dogs_item_second {
         display: none;
@@ -83,22 +83,31 @@
         line-height: 20px;
     }
 
-    .show_dog_img_and_arrow_icons{
+    .show_dog_img_and_arrow_icons {
         position: relative;
     }
 
-    .show_dog_arrow_icons{
+    .show_dog_arrow_icons {
         position: absolute;
-        top: 50%;
-        transform: translate(0%, -50%);
+        top: 35%;
+        /* transform: translate(0%, -50%); */
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 70%;
+        z-index: 3;
     }
 
-    .arrow_icon{
+    .arrow_icon {
         cursor: pointer;
         padding: 0px 5px;
+    }
+
+    /* .show_dogs_item_dog_image_div {
+        position: relative;
+    } */
+
+    .show_dogs_first_section{
+        position: relative;
     }
 
 }

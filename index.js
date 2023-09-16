@@ -8,6 +8,21 @@ const welcome_right_part = document.getElementById("welcome_right_part");
 
 let burger_bool = false;
 
+/* Second slider */
+
+const left_arrow = document.getElementById("left_arrow");
+const right_arrow = document.getElementById("right_arrow");
+
+const pic1 = document.getElementById("show_dogs_item_first");
+const pic2 = document.getElementById("show_dogs_item_second");
+const pic3 = document.getElementById("show_dogs_item_third");
+const pic4 = document.getElementById("show_dogs_item_fourth"); 
+
+
+let index = 0;
+
+let arr = [pic1, pic2, pic3, pic4];
+
 
 function Burger(){
 
@@ -42,3 +57,61 @@ function PartSlide(){
         welcome_right_part.style.display = "none";
     }
 }
+
+
+/* Second Slider */
+
+/* Display new image function */
+
+function Display(){
+    arr.map((item, i) => {
+        if(i === index){
+            item.style.display = "block";
+        }else{
+            item.style.display = "none";
+        }
+    })
+}
+
+/* Previous image function */
+
+function Prev(){
+
+    // console.log(index);
+
+    if(index === 0){
+        index = arr.length - 1;
+        // console.log("if", index);
+    }else{
+        index--;
+    }
+
+    // console.log(index);
+
+    Display();
+}
+
+left_arrow.addEventListener("click", Prev);
+
+
+// console.log(arr);
+
+/* Next image function */
+
+function Next(){
+
+    console.log();
+
+    if(index === arr.length - 1){
+        index = 0;
+        console.log(index);
+    }else{
+        index++;
+    }
+
+    console.log(index);
+
+    Display();
+}
+
+right_arrow.addEventListener("click", Next);

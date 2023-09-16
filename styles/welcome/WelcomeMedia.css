@@ -33,6 +33,8 @@
     }
 
     .welcome_main_left_part {
+        height: 900px;
+        justify-content: space-between;
         gap: 16px;
     }
 
@@ -44,6 +46,8 @@
 
     .welcome_main_right_part {
         display: none;
+        height: 900px;
+        justify-content: space-between;
     }
 
     .welcome_bottom_slider_buttons {

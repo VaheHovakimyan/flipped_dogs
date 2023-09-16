@@ -20,6 +20,11 @@
 /* Mobile version */
 
 @media only screen and (max-width:600px){
+
+    .features{
+        padding: 60px 0px;
+    }
+
     .feature_item{
         height: auto;
     }
