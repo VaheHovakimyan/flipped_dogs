@@ -27,7 +27,6 @@ let arr = [pic1, pic2, pic3, pic4];
 function Burger(){
 
     burger_bool = !burger_bool;
-    console.log(burger_bool);
 
     if(burger_bool){
         document.body.style.overflow = "hidden";
@@ -38,8 +37,6 @@ function Burger(){
     }
     
 }
-
-// menu.addEventListener("click", Burger);
 
 // Burger();
 
@@ -85,16 +82,11 @@ function Display(){
 
 function Prev(){
 
-    // console.log(index);
-
     if(index === 0){
         index = arr.length - 1;
-        // console.log("if", index);
     }else{
         index--;
     }
-
-    // console.log(index);
 
     Display();
 }
@@ -102,22 +94,15 @@ function Prev(){
 left_arrow.addEventListener("click", Prev);
 
 
-// console.log(arr);
-
 /* Next image function */
 
 function Next(){
 
-    console.log();
-
     if(index === arr.length - 1){
         index = 0;
-        console.log(index);
     }else{
         index++;
     }
-
-    console.log(index);
 
     Display();
 }
