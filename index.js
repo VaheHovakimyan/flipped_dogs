@@ -1,5 +1,6 @@
 const burger = document.getElementById("burger");
 const menu = document.getElementById("menu");
+const menu_div = document.getElementById("menu_div");
 
 const welcome_first_button = document.getElementById("welcome_mobile_first_button");
 const welcome_second_button = document.getElementById("welcome_mobile_second_button");
@@ -30,10 +31,19 @@ function Burger(){
 
     if(burger_bool){
         document.body.style.overflow = "hidden";
-        menu.style.display = "flex";
+        menu_div.style.right = "0%";
+        menu.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        // menu.style.height = "100%";
+        menu.style.visibility = "visible";
+        
+        // menu.style.display = "flex";
     }else{
         document.body.style.overflow = "auto";
-        menu.style.display = "none";
+        menu_div.style.right = "-100%";
+        menu.style.backgroundColor = "rgba(0, 0, 0, 0)";
+        // menu.style.height = "0%";
+        menu.style.visibility = "hidden";
+        // menu.style.display = "none";
     }
     
 }

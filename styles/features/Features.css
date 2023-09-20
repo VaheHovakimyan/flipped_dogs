@@ -11,8 +11,8 @@
     display: flex;
     /************************************************************/
 
-    padding: 64px 260px;
-    flex-direction: column;
+    padding: 64px 20px;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -22,11 +22,17 @@
 
 .features {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
     align-self: stretch;
+    max-width: 1440px;
+    width: 100%;
 }
 
+.feature_flex{
+    display: flex;
+    width: 100%;
+}
 
 .feature_item {
     display: flex;

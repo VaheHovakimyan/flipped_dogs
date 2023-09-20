@@ -14,6 +14,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .feature_flex{
+        flex-direction: column;
+    }
 }
 
 

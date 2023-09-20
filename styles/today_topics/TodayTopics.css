@@ -148,7 +148,7 @@
     align-items: flex-start;
     gap: 24px;
     min-width: 250px;
-    max-width: 350px;
+    /* max-width: 350px; */
 }
 
 .today_topics_left_part_item_img_div {
@@ -221,6 +221,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+}
+
+.trending_line {
+    width: 100%;
 }
 
 .today_topics_trending_title_tranding_items_div {
