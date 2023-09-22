@@ -18,6 +18,10 @@
     .feature_flex{
         flex-direction: column;
     }
+
+    .feature_item{
+        height: auto;
+    }
 }
 
 
@@ -27,9 +31,5 @@
 
     .features{
         padding: 60px 0px;
-    }
-
-    .feature_item{
-        height: auto;
     }
 }

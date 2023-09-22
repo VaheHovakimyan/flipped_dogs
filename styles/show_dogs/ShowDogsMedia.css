@@ -88,14 +88,6 @@
         line-height: 20px;
     }
 
-    .show_dogs_second_section_desktop_btn {
-        display: none;
-    }
-/* 
-    .show_dogs_second_section_mobile_btn {
-        display: inline;
-    } */
-
     .show_dogs_second_section_submit_dog_btn {
         width: 100%;
     }
@@ -114,14 +106,4 @@
         font-size: 13px;
         line-height: 20px;
     }
-
-    /* .show_dogs_item{
-        width: 100%;
-        max-width: none;
-    }
-
-    .show_dogs_item_dog_image_div{
-        width: 100%;
-    } */
-
 }
