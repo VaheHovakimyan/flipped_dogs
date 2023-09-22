@@ -9,12 +9,20 @@
     position: relative;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header_section {
     display: flex;
     flex-shrink: 0;
     align-items: center;
     justify-content: space-evenly;
     height: 144px;
+    max-width: 1700px;
+    width: 100%;
 }
 
 .logo_flex {

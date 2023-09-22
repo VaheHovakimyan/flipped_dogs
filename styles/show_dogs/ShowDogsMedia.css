@@ -44,9 +44,11 @@
     .show_dog_arrow_icons {
         position: absolute;
         top: 35%;
+        left: 50%;
+        transform: translate(-50%, 0%);
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 90%;
         z-index: 3;
     }
 
@@ -57,6 +59,17 @@
 
     .show_dogs_first_section{
         position: relative;
+        padding: 0px 0px;
+        width: 100%;
+    }
+
+    .show_dogs_item{
+        width: 100%;
+        max-width: none;
+    }
+
+    .show_dogs_item_dog_image_div{
+        width: 100%;
     }
 }
 
@@ -78,10 +91,10 @@
     .show_dogs_second_section_desktop_btn {
         display: none;
     }
-
+/* 
     .show_dogs_second_section_mobile_btn {
         display: inline;
-    }
+    } */
 
     .show_dogs_second_section_submit_dog_btn {
         width: 100%;
@@ -101,5 +114,14 @@
         font-size: 13px;
         line-height: 20px;
     }
+
+    /* .show_dogs_item{
+        width: 100%;
+        max-width: none;
+    }
+
+    .show_dogs_item_dog_image_div{
+        width: 100%;
+    } */
 
 }
