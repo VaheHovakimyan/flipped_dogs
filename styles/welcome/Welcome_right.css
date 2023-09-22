@@ -6,15 +6,10 @@
 /* Style */
 
 .welcome_main_right_part {
-    /* display: none; */
-    /************************************************************/
     display: flex;
-    /************************************************************/
-
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    /* flex: 1 0 0; */
     align-self: stretch;
     max-width: 650px;
     min-width: 330px;

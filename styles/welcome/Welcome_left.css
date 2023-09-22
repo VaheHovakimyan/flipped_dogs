@@ -7,12 +7,7 @@
 /* Style */
 
 .welcome_main {
-
-    /* display: none; */
-    /************************************************************/
     display: flex;
-    /************************************************************/
-
     padding: 64px 260px;
     justify-content: center;
     align-items: center;

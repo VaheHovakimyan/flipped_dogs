@@ -9,11 +9,7 @@
 /* Show dog first section */
 
 .show_dogs_article {
-    /* display: none; */
-    /************************************************************/
     display: flex;
-    /************************************************************/
-
     flex-direction: column;
     align-items: center;
     gap: 80px;
@@ -82,13 +78,7 @@
 /* Show dog second section */
 
 .show_dogs_second_section {
-
-    /* display: none; */
-
-    /************************************************************/
     display: flex;
-    /************************************************************/
-
     flex-direction: column;
     align-items: center;
     gap: 24px;

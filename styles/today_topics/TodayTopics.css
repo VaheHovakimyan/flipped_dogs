@@ -5,11 +5,7 @@
 /* Style */
 
 .today_topics_article {
-    /* display: none; */
-    /************************************************************/
     display: flex;
-    /************************************************************/
-
     justify-content: center;
     align-items: center;
     gap: 24px;
@@ -148,7 +144,6 @@
     align-items: flex-start;
     gap: 24px;
     min-width: 250px;
-    /* max-width: 350px; */
 }
 
 .today_topics_left_part_item_img_div {
