@@ -8,7 +8,39 @@
 
     .today_topics {
         flex-direction: column;
+        align-items: center;
     }
+
+    .today_topics_title{
+        white-space: nowrap;
+    }
+
+    .today_topics_right_part{
+        width: 100%;
+    }
+
+    .today_topics_trending_title_tranding_items_div{
+        width: 100%;
+    }
+
+    .trending_items_div{
+        width: 100%;
+        min-width: none;
+        max-width: none;
+    }
+
+    .trending_item{
+        width: 100%;
+    }
+
+    .today_topics_left_part_first_div{
+        width: 100%;
+    }
+
+    /* .trending_line {
+        width: 100%;
+    } */
+
 }
 
 
@@ -17,6 +49,10 @@
 @media only screen and (max-width:900px) {
     .today_topics_title {
         text-align: center;
+    }
+
+    .today_topics_left_part_second_div{
+        width: 100%;
     }
 
     .today_topics_left_part {
@@ -36,6 +72,21 @@
         max-width: none;
         width: 100%;
     }
+
+    .today_topics_title{
+        white-space: wrap;
+    }
+
+    .today_topics_img_flex{
+        position: relative;
+    }
+
+    .today_topics_img{
+        position: absolute;
+        top: -200px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
 }
 
 
@@ -43,7 +94,7 @@
 
 @media only screen and (max-width:600px) {
     .today_topics_article {
-        padding: 60px 10px;
+        padding: 60px 30px;
         min-width: 220px;
     }
 
@@ -100,7 +151,7 @@
         line-height: 24px;
     }
 
-    .today_topics_img_flex{
+    /* .today_topics_img_flex{
         position: relative;
     }
 
@@ -109,5 +160,5 @@
         top: -200px;
         left: 50%;
         transform: translate(-50%, 0%);
-    }
+    } */
 }

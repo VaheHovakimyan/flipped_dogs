@@ -33,12 +33,12 @@ function Burger(){
 
     if(burger_bool){
         document.body.style.overflow = "hidden";
-        menu_div.style.right = "0%";
+        menu_div.style.transform = "translateX(0%)"
         menu.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
         menu.style.visibility = "visible";
     }else{
         document.body.style.overflow = "auto";
-        menu_div.style.right = "-100%";
+        menu_div.style.transform = "translateX(100%)"
         menu.style.backgroundColor = "rgba(0, 0, 0, 0)";
         menu.style.visibility = "hidden";
     }

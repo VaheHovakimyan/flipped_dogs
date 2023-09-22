@@ -13,13 +13,14 @@
     .features {
         flex-direction: column;
         align-items: center;
+        padding: 60px 0px;
     }
 
-    .feature_flex{
+    .feature_flex {
         flex-direction: column;
     }
 
-    .feature_item{
+    .feature_item {
         height: auto;
     }
 }
@@ -27,9 +28,9 @@
 
 /* Mobile version */
 
-@media only screen and (max-width:600px){
+/* @media only screen and (max-width:600px){
 
     .features{
         padding: 60px 0px;
     }
-}
+} */

@@ -220,6 +220,10 @@
 
 .trending_line {
     width: 100%;
+    height: 2px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
 }
 
 .today_topics_trending_title_tranding_items_div {

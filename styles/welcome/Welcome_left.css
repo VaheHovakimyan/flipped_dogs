@@ -23,6 +23,8 @@
     align-items: flex-start;
     gap: 80px;
     flex-shrink: 0;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .welcome_bottom_slider_buttons{
@@ -39,6 +41,12 @@
     align-items: center;
     gap: 56px;
     align-self: stretch;
+}
+
+.welcome_left_part_main_div_btn_div{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
 }
 
 .welcome_main_left_part_elements {
