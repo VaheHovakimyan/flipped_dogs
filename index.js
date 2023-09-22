@@ -35,7 +35,6 @@ function Burger(){
         menu.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
         // menu.style.height = "100%";
         menu.style.visibility = "visible";
-        
         // menu.style.display = "flex";
     }else{
         document.body.style.overflow = "auto";
