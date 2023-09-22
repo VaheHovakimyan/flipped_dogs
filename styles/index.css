@@ -12,3 +12,7 @@ button{
     border: 0;
     cursor: pointer;
 }
+
+img{
+    user-select: none;
+}
