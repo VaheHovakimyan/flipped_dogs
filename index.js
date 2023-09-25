@@ -27,25 +27,26 @@ let index = 0;
 let arr = [pic1, pic2, pic3, pic4];
 
 
+// Function for menu opener
+
 function Burger(){
 
     burger_bool = !burger_bool;
 
     if(burger_bool){
-        document.body.style.overflow = "hidden";
-        menu_div.style.transform = "translateX(0%)"
+        menu_div.style.transform = "translateX(0%)";
+        menu_div.style.transition = "all 0.3s linear";
         menu.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
         menu.style.visibility = "visible";
     }else{
-        document.body.style.overflow = "auto";
-        menu_div.style.transform = "translateX(100%)"
+        menu_div.style.transform = "translateX(100%)";
+        menu_div.style.transition = "all 0.3s linear";
         menu.style.backgroundColor = "rgba(0, 0, 0, 0)";
         menu.style.visibility = "hidden";
     }
     
 }
 
-// Burger();
 
 let part_slide_bool = false;
 
