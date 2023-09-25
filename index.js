@@ -1,8 +1,10 @@
+// Burger part
+
 const burger = document.getElementById("burger");
 const menu = document.getElementById("menu");
 const menu_div = document.getElementById("menu_div");
 
-
+// Welcome parts
 
 const welcome_first_button = document.getElementById("welcome_mobile_first_button");
 const welcome_second_button = document.getElementById("welcome_mobile_second_button");
@@ -11,10 +13,14 @@ const welcome_right_part = document.getElementById("welcome_right_part");
 
 let burger_bool = false;
 
-/* Second slider */
+/////////////////////////////   Second slider   /////////////////////////////
+
+// Slider arrows
 
 const left_arrow = document.getElementById("left_arrow");
 const right_arrow = document.getElementById("right_arrow");
+
+// Slider images
 
 const pic1 = document.getElementById("show_dogs_item_first");
 const pic2 = document.getElementById("show_dogs_item_second");
@@ -26,7 +32,6 @@ let index = 0;
 
 let arr = [pic1, pic2, pic3, pic4];
 
-
 // Function for menu opener
 
 function Burger(){
@@ -34,11 +39,13 @@ function Burger(){
     burger_bool = !burger_bool;
 
     if(burger_bool){
+        document.body.style.overflow = "hidden";
         menu_div.style.transform = "translateX(0%)";
         menu_div.style.transition = "all 0.3s linear";
         menu.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
         menu.style.visibility = "visible";
     }else{
+        document.body.style.overflow = "auto";
         menu_div.style.transform = "translateX(100%)";
         menu_div.style.transition = "all 0.3s linear";
         menu.style.backgroundColor = "rgba(0, 0, 0, 0)";
@@ -72,9 +79,9 @@ function PartSlide(){
 }
 
 
-/* Second Slider */
+// Second Slider
 
-/* Display new image function */
+// Display new image function
 
 function Display(){
     arr.map((item, i) => {
@@ -86,7 +93,7 @@ function Display(){
     })
 }
 
-/* Previous image function */
+// Previous image function
 
 function Prev(){
 
@@ -102,7 +109,7 @@ function Prev(){
 left_arrow.addEventListener("click", Prev);
 
 
-/* Next image function */
+// Next image function
 
 function Next(){
 

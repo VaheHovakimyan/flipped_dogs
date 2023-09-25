@@ -26,6 +26,8 @@
 
     .welcome_parts{
         flex-direction: column;
+        height: 1000px;
+        justify-content: space-between;
     }
 
     .welcome_right_part_first_div {
@@ -146,7 +148,11 @@
     .welcome_left_part_main_div_btn_div {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 36px;
+    }
+
+    .welcome_parts{
+        height: 900px;
     }
 
 }

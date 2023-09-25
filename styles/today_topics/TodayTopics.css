@@ -212,14 +212,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-}
-
-.trending_line {
-    width: 100%;
-    height: 2px;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
+    padding-bottom: 20px;
+    border-bottom: 2px black solid;
 }
 
 .today_topics_trending_title_tranding_items_div {
@@ -235,6 +229,8 @@
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
+    border-bottom: 2px black solid;
+    padding-bottom: 20px;
 }
 
 .today_topics_right_part_title {

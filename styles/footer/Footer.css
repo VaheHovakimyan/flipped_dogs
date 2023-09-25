@@ -183,6 +183,17 @@
     white-space: nowrap;
 }
 
-.footer_sign_up_regular_cont_txt{
+.footer_sign_up_regular_cont_txt_inline {
     display: none;
+}
+
+.footer_sign_up_regular_cont_txt_block {
+    display: block;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 8px;
 }

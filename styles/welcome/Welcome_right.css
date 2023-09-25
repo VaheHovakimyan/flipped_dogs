@@ -6,7 +6,6 @@
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
-    /* max-width: 650px; */
     width: 100%;
     min-width: 330px;
 }
@@ -18,7 +17,6 @@
     gap: 48px;
     align-self: stretch;
 }
-
 
 .welcome_right_part_image {
     width: 100%;

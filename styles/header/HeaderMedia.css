@@ -1,8 +1,7 @@
 /* Small desktop version */
 
-@media only screen and (max-width:1150px) {
+@media only screen and (max-width:1320px) {
     .header_section {
-        padding: 16px 24px 4px 24px;
         gap: 8px;
     }
 
@@ -28,7 +27,11 @@
 
 @media only screen and (max-width:900px) {
     .logo_flex {
-        width: 130px;
+        width: 120px;
+    }
+
+    .header_section {
+        padding: 0px 20px;
     }
 
     #logo {
@@ -68,18 +71,17 @@
 
     .menu_div {
         width: 100%;
-        border-radius: 0px;
     }
 
     .menu_div_gap {
         gap: 30px;
     }
 
-    .menu_header_routes{
+    .menu_header_routes {
         gap: 15px;
     }
 
-    .menu_header_route_txt_span{
+    .menu_header_route_txt_span {
         line-height: 35px;
     }
 }
@@ -88,8 +90,16 @@
 
 @media only screen and (max-width:600px) {
 
+    .menu_div{
+        border-radius: 0px;
+    }
+    
+    .header_section {
+        padding: 0px 10px;
+    }
+
     .logo_flex {
-        width: 100px;
+        width: 90px;
     }
 
     .scrapbook_icon {

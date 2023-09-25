@@ -37,10 +37,6 @@
         width: 100%;
     }
 
-    /* .trending_line {
-        width: 100%;
-    } */
-
 }
 
 
@@ -94,7 +90,7 @@
 
 @media only screen and (max-width:600px) {
     .today_topics_article {
-        padding: 60px 30px;
+        padding: 60px 20px;
         min-width: 220px;
     }
 

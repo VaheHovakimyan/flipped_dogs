@@ -72,7 +72,11 @@
         width: 100%;
     }
 
-    .footer_sign_up_regular_cont_txt{
+    .footer_sign_up_regular_cont_txt_inline{
         display: inline;
+    }
+
+    .footer_sign_up_regular_cont_txt_block{
+        display: none;
     }
 }
