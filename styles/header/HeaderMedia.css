@@ -90,10 +90,6 @@
 
 @media only screen and (max-width:600px) {
 
-    .menu_div{
-        border-radius: 0px;
-    }
-    
     .header_section {
         padding: 0px 10px;
     }
@@ -132,5 +128,11 @@
 
     .burger_icon {
         width: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .menu_div {
+        border-radius: 0px;
     }
 }
